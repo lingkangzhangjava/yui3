@@ -1,7 +1,8 @@
 YUI.add('alt-iterations-tests', function(Y) {
     // NOTE: IE strips spaces from inline color styles (e.g. domNode.style.backgroundColor = 'rgb(255, 255, 255')
     // becomes 'rgb(255, 255, 255')).
-
+    
+    console.log(3);
     var node = Y.one('#demo'),
         to = {
             backgroundColor: 'rgb(255,136,0)',
